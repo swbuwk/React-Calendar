@@ -35,7 +35,8 @@ const StyledForm = styled.form`
     z-index: 100;
 
     h1 {
-        font-size: 26px;
+        font-size: 24px;
+        text-align: center;
     }
 
     > div {
@@ -61,12 +62,12 @@ const FormButtons = styled.section`
     justify-content: space-evenly;
 
     button {
-        width: 30%;
+        width: 40%;
         padding: 8px 0;
         border: none;
         border-radius: 5px;
         background-color: #ddd;
-        font-size: 20px;
+        font-size: 18px;
     }
 
     button:first-child {

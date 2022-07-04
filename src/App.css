@@ -21,3 +21,9 @@ body {
   height: 100%;
   background-color: red;
 }
+
+@media screen and (max-width: 740px) {
+  .App {
+    width: 100vw;
+  }
+}
